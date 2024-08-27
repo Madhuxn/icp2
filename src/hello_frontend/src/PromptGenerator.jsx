@@ -15,7 +15,7 @@ const prompts = [
   "Write a dialogue between two characters who have completely different views on an important issue."
 ];
 
-const App = () => {
+const PromptGenerator = () => {
   const [prompt, setPrompt] = useState('');
 
   const generatePrompt = () => {
@@ -31,4 +31,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default PromptGenerator;
